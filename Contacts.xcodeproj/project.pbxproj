@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D4BA19C27CFF68700F47F1B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4BA19B27CFF68700F47F1B /* DataManager.swift */; };
+		2D4BA19E27CFF69100F47F1B /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4BA19D27CFF69100F47F1B /* Person.swift */; };
+		2D4BA1A027CFF7AE00F47F1B /* PlainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4BA19F27CFF7AE00F47F1B /* PlainListView.swift */; };
+		2D4BA1A227D013A400F47F1B /* SectionedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4BA1A127D013A300F47F1B /* SectionedListView.swift */; };
 		2DAB3FB827CFEC3B00CAD4E2 /* ContactsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAB3FB727CFEC3B00CAD4E2 /* ContactsApp.swift */; };
 		2DAB3FBA27CFEC3B00CAD4E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAB3FB927CFEC3B00CAD4E2 /* ContentView.swift */; };
 		2DAB3FBC27CFEC4200CAD4E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DAB3FBB27CFEC4200CAD4E2 /* Assets.xcassets */; };
 		2DAB3FBF27CFEC4200CAD4E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DAB3FBE27CFEC4200CAD4E2 /* Preview Assets.xcassets */; };
+		2DAB3FC627CFEF9700CAD4E2 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAB3FC527CFEF9700CAD4E2 /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D4BA19B27CFF68700F47F1B /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		2D4BA19D27CFF69100F47F1B /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		2D4BA19F27CFF7AE00F47F1B /* PlainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainListView.swift; sourceTree = "<group>"; };
+		2D4BA1A127D013A300F47F1B /* SectionedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionedListView.swift; sourceTree = "<group>"; };
 		2DAB3FB427CFEC3B00CAD4E2 /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DAB3FB727CFEC3B00CAD4E2 /* ContactsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsApp.swift; sourceTree = "<group>"; };
 		2DAB3FB927CFEC3B00CAD4E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2DAB3FBB27CFEC4200CAD4E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DAB3FBE27CFEC4200CAD4E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2DAB3FC527CFEF9700CAD4E2 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,12 @@
 			isa = PBXGroup;
 			children = (
 				2DAB3FB727CFEC3B00CAD4E2 /* ContactsApp.swift */,
+				2D4BA19B27CFF68700F47F1B /* DataManager.swift */,
 				2DAB3FB927CFEC3B00CAD4E2 /* ContentView.swift */,
+				2D4BA1A127D013A300F47F1B /* SectionedListView.swift */,
+				2DAB3FC527CFEF9700CAD4E2 /* DetailsView.swift */,
+				2D4BA19F27CFF7AE00F47F1B /* PlainListView.swift */,
+				2D4BA19D27CFF69100F47F1B /* Person.swift */,
 				2DAB3FBB27CFEC4200CAD4E2 /* Assets.xcassets */,
 				2DAB3FBD27CFEC4200CAD4E2 /* Preview Content */,
 			);
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D4BA19E27CFF69100F47F1B /* Person.swift in Sources */,
 				2DAB3FBA27CFEC3B00CAD4E2 /* ContentView.swift in Sources */,
+				2D4BA19C27CFF68700F47F1B /* DataManager.swift in Sources */,
 				2DAB3FB827CFEC3B00CAD4E2 /* ContactsApp.swift in Sources */,
+				2DAB3FC627CFEF9700CAD4E2 /* DetailsView.swift in Sources */,
+				2D4BA1A027CFF7AE00F47F1B /* PlainListView.swift in Sources */,
+				2D4BA1A227D013A400F47F1B /* SectionedListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
