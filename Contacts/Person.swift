@@ -8,11 +8,12 @@
 import Foundation
 
 struct Person: Identifiable {
-    let id = UUID()
     let name: String
     let surname: String
     let phone: String
     let email: String
+    
+    let id = UUID()
     
     var fullName: String {
         "\(name) \(surname)"
